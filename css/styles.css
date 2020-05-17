@@ -57,7 +57,7 @@ header nav a:hover {
     font-size: 16px;
     min-height: 40.62em;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .5) 100%), url(../img/Sonic.jpg);
+    background: linear-gradient(rgba(12, 11, 11, 0.5) 0%, rgba(0, 0, 0, .5) 100%), url(../img/Sonic.jpg);
     background-position: center center;
     background-size: cover;
     margin-bottom: 3.12em;
@@ -215,6 +215,16 @@ header nav a:hover {
     transform-origin: center;
 }
 
+.contenedor_footer{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;    
+}
+
+.contenedor_texto{
+    color: #fff;
+}
 
 /* Media querys*/
 
@@ -246,4 +256,8 @@ header nav a:hover {
     .peliculas-recomendadas .flecha-derecha {
         display: none;
     }
+
+footer{
+
+}    
 }
